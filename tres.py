@@ -17,10 +17,11 @@ def get_seconds():
     return int(time.time())
 
 
-def screenshot():
-    def restore():
-        subprocess.call(["wmctrl", "-s", "0"])
+def restore():
+    subprocess.call(["wmctrl", "-s", "0"])
 
+
+def screenshot():
     try:
         # Switch to the third workspace (index 2)
         subprocess.call(["wmctrl", "-s", str(WORKSPACE)])
