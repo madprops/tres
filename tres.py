@@ -5,11 +5,10 @@ import time
 
 
 MINUTES = 9
-DISPLAY = 2
 WORKSPACE = 2
 QUALITY = 88
 OFFSET = "1920x1200+1920+0"
-DIR = "/media/struct3/tres"
+DIR = "/home/yo/tres_images"
 EXT = "png"
 
 
